@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(shrine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+
+.cal22{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+table{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td:hover{
+    background: gold;
+}
+
+.hoover{
+    background-color: grey;
+    background: rgb(241, 241, 131);
+}
+
+.hoover:hover{
+    background-color: black;
+    background: white;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+tr{
+    display: table-row-group;
+}
+
+td{
+    padding: 10px;
+    background: rgb(1, 255, 1);
+}
+
+
+
+.month {
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+th{
+    background: rgb(10, 167, 114);
+}
+
+td:nth-child(7n+1){
+    color: red;
+}
+

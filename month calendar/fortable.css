@@ -1,0 +1,58 @@
+
+body{
+    background-color: rgb(14, 209, 40);
+    background-size: 100%;
+    background-size: 100%;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 200px;
+    margin: auto;
+    font-family: sans-serif;
+}
+   
+table{
+    float: left;
+    margin-left: 20px;
+}
+
+.month{
+
+    margin-left: 20px;
+    width: 555px;
+  
+text-align: center;
+background: purple;
+font-size: 17px;
+letter-spacing: 1px;
+color: azure;
+padding: 1px;
+border: 5px solid rgb(255, 25, 0);
+}
+
+table, th, td {
+    padding: 1px;
+    width: 50px;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 1px solid snow;
+}
+
+tr, th, td{
+padding: 15px;
+}
+
+th{
+background: red;
+color: whitesmoke;
+}
+
+td{
+background: rgb(103, 113, 247);
+}
+
+td:hover{
+background: blue;
+}
